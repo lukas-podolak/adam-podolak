@@ -1,0 +1,24 @@
+:root {
+  --red-light: #8b0003;
+  --red-primary: #510002;
+  --red-dark: #3a0001;
+  --background-black: #050304;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-black);
+  color: white;
+}
+
+a {
+  color: var(--red-light);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s all ease;
+
+  &:hover {
+    color: var(--red-primary);
+  }
+}
