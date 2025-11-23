@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/adam-podolak/static/css/main.41f394ab.css",
-    "main.js": "/adam-podolak/static/js/main.e0a49975.js",
+    "main.js": "/adam-podolak/static/js/main.2ee16688.js",
     "static/media/kuci.mp4": "/adam-podolak/static/media/kuci.3ebf2973943f6af74e18.mp4",
     "static/media/holkybeh.mp4": "/adam-podolak/static/media/holkybeh.07fd55a4c49cdb17c647.mp4",
     "static/media/LukasImage_1530_20250725.jpg": "/adam-podolak/static/media/LukasImage_1530_20250725.32df119bef793cdcbf2f.jpg",
@@ -10,10 +10,10 @@
     "static/media/dron3,5 1.png": "/adam-podolak/static/media/dron3,5 1.0130be5988599d25c4a7.png",
     "index.html": "/adam-podolak/index.html",
     "main.41f394ab.css.map": "/adam-podolak/static/css/main.41f394ab.css.map",
-    "main.e0a49975.js.map": "/adam-podolak/static/js/main.e0a49975.js.map"
+    "main.2ee16688.js.map": "/adam-podolak/static/js/main.2ee16688.js.map"
   },
   "entrypoints": [
     "static/css/main.41f394ab.css",
-    "static/js/main.e0a49975.js"
+    "static/js/main.2ee16688.js"
   ]
 }
