@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Adam Podolak portfolio preview</title>
+  <desc id="desc">Adam Podolak video editor and content creator portfolio social preview.</desc>
+  <rect width="1200" height="630" fill="#0a0a0a" />
+  <path d="M0 520 C220 430 330 590 520 505 C730 412 850 210 1200 265 L1200 630 L0 630 Z" fill="#f0c36d" opacity="0.2" />
+  <path d="M0 110 C180 190 270 40 460 125 C650 210 760 120 1200 80" fill="none" stroke="#9ccfd8" stroke-width="4" opacity="0.36" />
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="none" stroke="#f5f1e8" stroke-opacity="0.2" />
+  <circle cx="972" cy="158" r="78" fill="#f29d85" opacity="0.82" />
+  <circle cx="1015" cy="466" r="52" fill="#9ccfd8" opacity="0.9" />
+  <rect x="84" y="88" width="214" height="126" rx="18" fill="#f5f1e8" opacity="0.12" />
+  <rect x="802" y="356" width="244" height="142" rx="18" fill="#f5f1e8" opacity="0.1" />
+  <text x="104" y="310" fill="#f5f1e8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="74" font-weight="800">Adam Podolak</text>
+  <text x="108" y="370" fill="#f5f1e8" fill-opacity="0.74" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">Video editor and content creator</text>
+  <text x="108" y="432" fill="#f5f1e8" fill-opacity="0.64" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">Editorial reels, campaign cutdowns, portraits, and post-production systems.</text>
+  <text x="108" y="502" fill="#f0c36d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">adampodolak.com</text>
+</svg>
