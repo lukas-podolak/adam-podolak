@@ -101,7 +101,7 @@ export const portfolioNodes: PortfolioNode[] = [
     kind: 'testimonial',
     title: 'Trusted for the last 10 percent',
     eyebrow: 'Client note',
-    description:
+    description:    
       'Adam turns rough footage into work that feels intentional. He finds the cleanest story, then makes every frame earn its place.',
     x: 820,
     y: 260,
