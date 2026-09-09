@@ -154,7 +154,7 @@ export const portfolioNodes: PortfolioNode[] = [
     title: 'Ceník, Kontakt',
     eyebrow: 'Ceník',
     description:    
-      'Napište mi na WhatsApp, nebo instagram a na ceně a všem důležitým se určite domluvíme. tel. - 721 012 252 Instagram - _adampodolak_',
+      'Napište mi na WhatsApp, nebo instagram a na ceně a všem důležitým se určite domluvíme. \n\ntel. 721 012 252 \nInstagram _adampodolak_',
     x: 1730,
     y: 200,
     width: 420,
