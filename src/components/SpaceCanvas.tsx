@@ -235,7 +235,7 @@ function PortfolioItem({ node, onSelect }: { node: PortfolioNode; onSelect: (nod
         lineHeight={1.04}
       />
       <Text
-        text={node.description}
+        text={node.description?.length > 140 ? node.description.slice(0, 190) + '...' : node.description}
         x={0}
         y={copyY}
         width={node.width}
@@ -243,6 +243,7 @@ function PortfolioItem({ node, onSelect }: { node: PortfolioNode; onSelect: (nod
         fontFamily="Inter, Segoe UI, sans-serif"
         fontSize={16}
         lineHeight={1.32}
+        align="justify"
       />
       {node.cta ? (
         <Text

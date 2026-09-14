@@ -29,6 +29,11 @@ import foto2807 from '../assets/foto-2807.jpg'
 import img5315 from '../assets/IMG_5315.jpg'
 import img5643 from '../assets/IMG_5643.jpg'
 import untitled4981 from '../assets/untitled-4981.jpg'
+import novaFotka from '../assets/Snímek obrazovky 2026-09-14 210814.png';
+import fotka1 from '../assets/1.png';
+import fotka2 from '../assets/2.png';
+import fotka3 from '../assets/3.png';
+import fotka4 from '../assets/4.png';
 
 
 export const portfolioNodes: PortfolioNode[] = [
@@ -67,7 +72,7 @@ export const portfolioNodes: PortfolioNode[] = [
     title: 'SVATBA Verči a Míry',
     eyebrow: 'svatební miniFilm',
     description:
-      'A compact reel built around pacing, punchy transitions, sound-led cuts, and platform-native storytelling.',
+      'Verča: Adamovi moc děkujeme za nádherné video z našeho svatebního dne. ❤️ Byl skvělý, přirozený a díky němu jsme se před kamerou cítili naprosto skvěle! Dokázal zachytit všechny důležité momenty. Výsledné video je nádherné a hlavně působí přirozeně a autenticky. Když se na něj díváme, máme pocit, že jsme zase zpátky v našem svatebním dni. Je vidět, že Adam svou práci dělá s láskou a dává si na tom opravdu záležet. Moc doporučujeme!',
     x: 470,
     y: -350,
     width: 470,
@@ -85,7 +90,7 @@ export const portfolioNodes: PortfolioNode[] = [
     title: 'SVATBA Péťi a Lukáše',
     eyebrow: 'svatební miniFilm',
     description:
-      'A compact reel built around pacing, punchy transitions, sound-led cuts, and platform-native storytelling.',
+      'Naše zkušenost s tebou byla od začátku skvělá. Už při první schůzce jsme měli pocit, že jsme si vybrali správně, a výsledná videa naše očekávání ještě mnohonásobně předčila. Oceňujeme především skvělou komunikaci, ochotu a individuální přístup. Mohli jsme si vybrat vlastní hudbu, ale zároveň jsi dokázal vybrat i skladby podle sebe, které do jednotlivých momentů nádherně zapadly. Záběry z dronu jsou úžasným bonusem a jedno z našich videí v retro stylu je naprosto dechberoucí. Největší hodnotu pro nás ale mají videa jako vzpomínka. Svatba je jeden jediný den a uteče neuvěřitelně rychle. Díky tobě ho máme zachycený tak, že se k němu můžeme kdykoliv vrátit. Mohli jsme navíc náš den ukázat rodině a přátelům, kteří s námi nemohli být, a především naší babičce, která už kvůli zdraví a věku na svatbě být nemohla. I díky tomu pro nás mají videa obrovský význam. Děkujeme za skvělou práci, přístup a především za to, s jakým citem jsi náš svatební den zachytil. Jsme opravdu moc rádi, že jsme si vybrali právě tebe, a můžeme tě s čistým svědomím doporučit každému, kdo chce mít svůj den zachycený nejen krásně, ale především opravdově.❤️ ',
     x: 1100,
     y: -550,
     width: 470,
@@ -168,7 +173,7 @@ export const portfolioNodes: PortfolioNode[] = [
     title: 'SPORT VIDEOGRAPHY',
     eyebrow: '',
     description:
-      'Na natáčení svateb mám nejradeji zachicení emocí a celé atmosféry. Natočím váš velký den tak by jste se k němu mohli vrátit i po rocích. ',
+      'Ve sportu neexistuje druhý záber nic se nedá zopakovat. Každý pohyb, emoce i moment jsou naprosto jedinečné. Díky vlastním zkušenostem z vrcholového sportu mám cit pro dění na stadionu a přesně vím, kdy stisknout spoušť.',
     x: -1000,
     y: -310,
     width: 350,
@@ -212,7 +217,23 @@ export const portfolioNodes: PortfolioNode[] = [
     videoUrl: 'https://www.youtube.com/embed/sdD5zuTCxow?si=Xuei7TnXD8VLEte0',
     featured: true,
   },
-  
+  {
+    id: 'reel',
+    kind: 'video',
+    title: 'Reels Tréninku',
+    eyebrow: 'hills',
+    description:
+      '',
+    x: -1630,
+    y: -370,
+    width: 470,
+    height: 300,
+    accent: '#f0c36d',
+    mediaAspectRatio: 16 / 9,
+    imageUrl: novaFotka,
+    videoUrl: 'https://www.youtube.com/embed/lSgJgRD7fFU?si=6GE9wFB4E0wGo7St',
+    featured: true,
+  },
   {
     id: 'photo-set',
     kind: 'photo',
@@ -241,6 +262,52 @@ export const portfolioNodes: PortfolioNode[] = [
     height: 400,
     accent: '#e54646',
     imageUrl: untitled4981,
+    featured: true,
+  },
+  {
+    id: 'contact',
+    kind: 'contact',
+    title: 'Social Media Manager',
+    eyebrow: 'SMM',
+    description:
+      'Stojím za instagramovým profilem Atletiky Stará Boleslav, který jsem vybudoval od nuly až k dnešním statisícovým dosahům a komunitě téměř 500 sledujících. Tvořím kompletní obsah na míru – od vizuální grafiky až po dynamický live coverage ze závodů, kde běžně během jediného dne natočím a sestříhám 5–7 videí.',
+    x: -1000,
+    y: 500,
+    width: 500,
+    height: 500,
+    accent: '#243aca',
+    linkUrl: '',
+    cta: '',
+    featured: true,
+  },
+  {
+    id: 'photo-set',
+    kind: 'photo',
+    title: '',
+    eyebrow: 'Sport Photography',
+    description:
+      '',
+    x: -400,
+    y: 450,
+    width: 400,
+    height: 700,
+    accent: '#e54646',
+    imageUrl: fotka2,
+    featured: true,
+  },
+  {
+    id: 'photo-set',
+    kind: 'photo',
+    title: '',
+    eyebrow: 'Sport Photography',
+    description:
+      'foto by @plechyho',
+    x: -820,
+    y: 750,
+    width: 400,
+    height: 680,
+    accent: '#e54646',
+    imageUrl: fotka4,
     featured: true,
   },
 ]

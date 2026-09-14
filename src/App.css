@@ -290,7 +290,7 @@
   max-height: calc(100svh - 48px);
   overflow: auto;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 16px;
   padding: 42px;
   background: var(--panel-strong);
