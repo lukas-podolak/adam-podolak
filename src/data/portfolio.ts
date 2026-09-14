@@ -26,13 +26,9 @@ import screenshotGallery from '../assets/Screenshot_20260907_221650_Gallery.jpg'
 import whatsappPhoto from '../assets/WhatsApp Image 2026-09-07 at 22.42.59.jpeg'
 import redbullPhoto from '../assets/redbull400FOTO.jpg'
 import foto2807 from '../assets/foto-2807.jpg'
-import img5315 from '../assets/IMG_5315.jpg'
-import img5643 from '../assets/IMG_5643.jpg'
 import untitled4981 from '../assets/untitled-4981.jpg'
 import novaFotka from '../assets/Snímek obrazovky 2026-09-14 210814.png';
-import fotka1 from '../assets/1.png';
 import fotka2 from '../assets/2.png';
-import fotka3 from '../assets/3.png';
 import fotka4 from '../assets/4.png';
 
 
