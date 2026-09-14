@@ -40,12 +40,12 @@ export const portfolioNodes: PortfolioNode[] = [
   {
     id: 'intro',
     kind: 'text',
-    title: '    Adam Podolak',
+    title: 'Adam Podolak',
     description:
-      'A roaming board of edits, campaign moments, stills, and social-first story systems for brands that need rhythm, taste, and speed.',
-    x: -250,
+      'Tvořím dynamická sportovní videa, emotivní svatební filmy a kompletní vizuální obsah pro sociální sítě.',
+    x: -199,
     y: -110,
-    width: 500,
+    width: 401,
     height: 260,
     accent: '#fdfdfd',
     featured: true,
