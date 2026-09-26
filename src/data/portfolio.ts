@@ -304,7 +304,7 @@ export const portfolioNodes: PortfolioNode[] = [
     description:
       'Stojím za instagramovým profilem Atletiky Stará Boleslav, který jsem vybudoval od nuly až k dnešním statisícovým dosahům a komunitě téměř 500 sledujících. Tvořím kompletní obsah na míru – od vizuální grafiky až po dynamický live coverage ze závodů, kde běžně během jediného dne natočím a sestříhám 5–7 videí.',
     x: -1000,
-    y: 500,
+    y: 400,
     width: 500,
     height: 500,
     accent: '#243aca',
@@ -334,8 +334,8 @@ export const portfolioNodes: PortfolioNode[] = [
     eyebrow: 'Sport Photography',
     description:
       'foto by @plechyho',
-    x: -820,
-    y: 750,
+    x: -900,
+    y: 700,
     width: 400,
     height: 680,
     accent: '#243aca',

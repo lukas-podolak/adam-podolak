@@ -235,7 +235,7 @@ function PortfolioItem({ node, onSelect }: { node: PortfolioNode; onSelect: (nod
         lineHeight={1.04}
       />
       <Text
-        text={node.description?.length > 140 ? node.description.slice(0, 190) + '...' : node.description}
+        text={node.id === 'contact' ? node.description : (node.description?.length > 140 ? node.description.slice(0, 170) + '...' : node.description)}
         x={0}
         y={copyY}
         width={node.width}
