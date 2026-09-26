@@ -307,7 +307,7 @@ export const portfolioNodes: PortfolioNode[] = [
     y: 400,
     width: 500,
     height: 500,
-    accent: '#243aca',
+    accent: '#243aca',  
     linkUrl: '',
     cta: '',
     featured: true,
