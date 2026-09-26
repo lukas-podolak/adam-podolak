@@ -31,6 +31,7 @@ import novaFotka from '../assets/Snímek obrazovky 2026-09-14 210814.png';
 import fotka2 from '../assets/2.png';
 import fotka4 from '../assets/4.png';
 import futbalFoto from '../assets/fotbal.jpg';
+import skokFoto from '../assets/skok.jpg';
 
 export const portfolioNodes: PortfolioNode[] = [
   {
@@ -230,6 +231,24 @@ export const portfolioNodes: PortfolioNode[] = [
     videoUrl: 'https://www.youtube.com/embed/lSgJgRD7fFU?si=6GE9wFB4E0wGo7St',
     featured: true,
   },
+ {
+    id: 'reel',
+    kind: 'video',
+    title: 'Blansko 2026',
+    eyebrow: 'Blansko 2026',
+    description:
+      '',
+    x: -1700,
+    y: -750,
+    width: 470,
+    height: 300,
+    accent: '#f0c36d',
+    mediaAspectRatio: 16 / 9,
+    imageUrl: skokFoto,
+    videoUrl: 'https://www.youtube.com/embed/lipifS9I3Xw?si=SseOdCDXbL0rnTU7',
+    featured: true,
+  },
+
   {
     id: 'photo-set',
     kind: 'photo',
