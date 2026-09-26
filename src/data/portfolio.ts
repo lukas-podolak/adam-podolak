@@ -34,7 +34,7 @@ import fotka1 from '../assets/1.png';
 import fotka2 from '../assets/2.png';
 import fotka3 from '../assets/3.png';
 import fotka4 from '../assets/4.png';
-
+import futbalFoto from '../assets/fotbal.jpg';
 
 export const portfolioNodes: PortfolioNode[] = [
   {
@@ -108,7 +108,7 @@ export const portfolioNodes: PortfolioNode[] = [
     eyebrow: 'svatební BTS',
     description:
       '',
-    x: 1200,
+    x: 1300,
     y: 200,
     width: 470,
     height: 300,
@@ -125,7 +125,7 @@ export const portfolioNodes: PortfolioNode[] = [
     eyebrow: 'short video',
     description:
       '',
-    x: 880,
+    x: 950,
     y: 150,
     width: 260,
     height: 620,
@@ -160,7 +160,7 @@ export const portfolioNodes: PortfolioNode[] = [
     eyebrow: 'Ceník',
     description:    
       'Napište mi na WhatsApp, nebo instagram a na ceně a všem důležitým se určite domluvíme. \n\ntel. 721 012 252 \nInstagram _adampodolak_',
-    x: 1730,
+    x: 470,
     y: 200,
     width: 420,
     height: 250,
@@ -264,6 +264,23 @@ export const portfolioNodes: PortfolioNode[] = [
     imageUrl: untitled4981,
     featured: true,
   },
+
+  {
+    id: 'photo-set',
+    kind: 'photo',
+    title: '',
+    eyebrow: 'Sport Photography',
+    description:
+      '',
+    x: -1730,
+    y: 160,
+    width: 400,
+    height: 800,
+    accent: '#e54646',
+    imageUrl: futbalFoto,
+    featured: true,
+  },
+
   {
     id: 'contact',
     kind: 'contact',

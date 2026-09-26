@@ -31,7 +31,7 @@ function App() {
         <a className="brand" href="mailto:hello@adampodolak.com" aria-label="Email Adam Podolak">
           <span>
             <strong>Adam Podolak</strong>
-            <small>Content creator and editor</small>
+            <small>Videographer & Photographer</small>
           </span>
         </a>
       </header>
