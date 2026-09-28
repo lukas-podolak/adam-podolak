@@ -20,6 +20,7 @@ interface ViewState {
 interface TouchState {
   distance: number
   center: { x: number; y: number }
+  view: ViewState
 }
 
 const minScale = 0.35
@@ -312,6 +313,26 @@ export function SpaceCanvas({ nodes, onSelectNode }: SpaceCanvasProps) {
     }))
   }, [])
 
+  const handleTouchStart = useCallback(
+    (event: KonvaEventObject<TouchEvent>) => {
+      const touches = event.evt.touches
+
+      if (touches.length !== 2) {
+        touchRef.current = null
+        return
+      }
+
+      event.evt.preventDefault()
+      stageRef.current?.stopDrag()
+      touchRef.current = {
+        distance: getTouchDistance(touches),
+        center: getTouchCenter(touches),
+        view,
+      }
+    },
+    [view],
+  )
+
   const handleTouchMove = useCallback(
     (event: KonvaEventObject<TouchEvent>) => {
       const touches = event.evt.touches
@@ -326,15 +347,23 @@ export function SpaceCanvas({ nodes, onSelectNode }: SpaceCanvasProps) {
       const previous = touchRef.current
 
       if (!previous) {
-        touchRef.current = { distance, center }
+        touchRef.current = { distance, center, view }
         return
       }
 
-      const nextScale = view.scale * (distance / previous.distance)
-      zoomAtPoint(center, nextScale)
-      touchRef.current = { distance, center }
+      const nextScale = clampScale(previous.view.scale * (distance / previous.distance))
+      const worldCenter = {
+        x: (previous.center.x - previous.view.x) / previous.view.scale,
+        y: (previous.center.y - previous.view.y) / previous.view.scale,
+      }
+
+      setView({
+        scale: nextScale,
+        x: center.x - worldCenter.x * nextScale,
+        y: center.y - worldCenter.y * nextScale,
+      })
     },
-    [view.scale, zoomAtPoint],
+    [view],
   )
 
   const zoomIn = () => zoomAtPoint({ x: viewport.width / 2, y: viewport.height / 2 }, view.scale * 1.16)
@@ -354,6 +383,7 @@ export function SpaceCanvas({ nodes, onSelectNode }: SpaceCanvasProps) {
         draggable
         onWheel={handleWheel}
         onDragMove={handleDragMove}
+        onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={() => {
           touchRef.current = null

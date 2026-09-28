@@ -342,8 +342,7 @@
   }
 
   .creator-credit {
-    left: 12px;
-    bottom: 82px;
+    display: none;
   }
 
   .lightbox {
